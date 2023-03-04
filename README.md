@@ -2,6 +2,12 @@
 
 ## [Live Site](https://curious-frangipane-f4380a.netlify.app/).
 
+## if you have not installed sass so run this command
+
+```
+npm install -g sass
+```
+
 ## SCSS Build Command
 
 ```
