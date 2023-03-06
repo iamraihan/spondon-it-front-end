@@ -1,5 +1,81 @@
-// update variable
-$primary: red;
+// font family
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700;800&display=swap");
 
+// update variable
+$primary: #4277ff;
+$secondary: #5c6574;
+$light: #f3f7f9;
 // import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Asap", sans-serif;
+}
+.navbar .navbar-nav .nav-link {
+  color: $secondary;
+  font-size: 1.1em;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.aura-nav-btn {
+  margin-top: -5px;
+}
+.hero {
+  .hero-bg::before {
+    content: url(../assets/images/animated\ element-app.svg);
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    animation: moveAnimate 4s infinite alternate;
+  }
+  .hero-bg::after {
+    content: url(../assets/images/cart.svg);
+    position: absolute;
+    top: 36%;
+    right: 19%;
+    animation: moveAnimate 2s infinite alternate;
+  }
+
+  @keyframes moveAnimate {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.3);
+    }
+  }
+  max-width: 1600px;
+  margin-left: auto;
+}
+.hero-content {
+  h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 88px;
+  }
+  .easier::after {
+    content: url(../assets/images/animated\ line.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .incredible::after {
+    content: url(../assets/images/animated\ line\ 2.svg);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-link {
+    padding: 0 0.5em;
+  }
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+  }
+}
