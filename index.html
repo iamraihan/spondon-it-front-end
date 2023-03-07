@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/style.css" />
     <title>Aorasoft</title>
   </head>
-  <body>
+  <body class="bg-light">
     <header class="bg-light">
       <!-- navbar  -->
       <nav class="navbar navbar-expand-lg container" style="">
@@ -469,19 +469,131 @@
       </section>
       <!-- showcase section end -->
       <!-- software collection  -->
-      <section class="software-collection bg-primary d-flex align-items-center">
+      <section
+        class="software-collection bg-primary d-flex align-items-center gap-5"
+      >
         <div class="">
           <img src="./assets/images/others/circle.png" alt="" />
         </div>
         <div>
-          <h3>We have Huge Software Collection</h3>
-          <p>Explore from our product librery, 233+ premium product there</p>
+          <h3 class="text-white">We have Huge Software Collection</h3>
+          <p class="text-white">
+            Explore from our product librery, 233+ premium product there
+          </p>
         </div>
-        <div><button>View All</button></div>
-        <div class="">Hello</div>
+        <div><button class="btn btn-white bg-white">View All</button></div>
+        <div class="software-bg position-relative"></div>
       </section>
       <!-- software collection end -->
     </main>
+    <footer class="footer-section">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <!-- widget end -->
+            <div class="col">
+              <div class="widget course-links-widget">
+                <h5 class="widget-title">About US</h5>
+                <p>
+                  Spondonit have been launched in 2008 to serve the IT related
+                  services. We deliver top class services.
+                </p>
+                <div class="d-flex gap-3 align-items-center">
+                  <div class="d-flex gap-3 align-items-center">
+                    <img src="./assets/images/others/phone.svg" alt="" /><a
+                      class="text-secondary"
+                      href="+2 810 854-36-79"
+                      >+2 810 854-36-79</a
+                    >
+                  </div>
+                  <div class="d-flex gap-3 align-items-center">
+                    <img src="./assets/images/others/email.svg" alt="" /><a
+                      class="text-secondary"
+                      href="mailto:raihanali.dev@gmail.com"
+                      >support@spondon.com</a
+                    >
+                  </div>
+                </div>
+                <div class="mt-5">
+                  <img src="./assets/images/others/payment-method.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="widget course-links-widget">
+                <h5 class="widget-title">Support Zone</h5>
+                <ul>
+                  <li>Unlock Your Potential</li>
+                  <li>Privacy policy and cookie policy</li>
+                  <li>Sitemap</li>
+                  <li>Featured courses</li>
+                  <li>Join Us</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="widget course-links-widget">
+                <h5 class="widget-title">Quick Link</h5>
+                <ul>
+                  <li>Dashboard</li>
+                  <li>Blog</li>
+                  <li>Help and Support</li>
+                  <li>Affiliate</li>
+                  <li>Terms</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col">
+              <div class="widget course-links-widget">
+                <h5 class="widget-title">Subscribe</h5>
+              </div>
+              <form class="news-letter-form">
+                <input
+                  class="input-field"
+                  type="email"
+                  name="news-email"
+                  id="news-email"
+                  placeholder="Enter your email "
+                />
+                <input class="input-btn" type="submit" value="GO" />
+                <p>*Don’t Worry We Hate Spam</p>
+                <div class="text-start">
+                  <img
+                    class="text-start"
+                    src="./assets/images/others/social.png"
+                    alt=""
+                  />
+                </div>
+              </form>
+            </div>
+
+            <!-- widget end -->
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 text-sm-left text-center">
+              <span class="text-secondary">© 2022 All Rights Reserved</span>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <ul
+                class="terms-privacy d-flex gap-3 justify-content-sm-end justify-content-center"
+              >
+                <li class="text-secondary list-none">Privacy Policy</li>
+                <li class="text-secondary">Terms of Use</li>
+                <li class="text-secondary">Sales and Refunds</li>
+                <li class="text-secondary">Legal</li>
+                <li class="text-secondary">Site Map</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer-bottom end -->
+    </footer>
+
     <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
