@@ -10848,6 +10848,44 @@ body img {
   left: 0;
 }
 
+.payment-gateway {
+  padding-top: 60px;
+}
+.payment-gateway .payment-bg::after {
+  content: url(/assets/images/payment-gateway/Rectangle\ 796.png);
+  position: absolute;
+  top: 42%;
+  left: 33%;
+  animation: rotateAnimate 10s infinite linear;
+}
+.payment-gateway .payment-card-bg::before {
+  content: url(/assets/images/payment-gateway/Rectangle\ 802.png);
+  position: absolute;
+  top: -15px;
+  left: -67px;
+  animation: moveAnimate 2s infinite alternate;
+}
+.payment-gateway .payment-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #495264;
+  margin-bottom: 70px;
+}
+.payment-gateway .payment-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+@keyframes rotateAnimate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .swiper-3d .swiper-slide-shadow {
   background: transparent;
 }

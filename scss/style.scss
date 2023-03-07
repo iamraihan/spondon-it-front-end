@@ -83,6 +83,43 @@ body {
     left: 0;
   }
 }
+.payment-gateway {
+  .payment-bg::after {
+    content: url(/assets/images/payment-gateway/Rectangle\ 796.png);
+    position: absolute;
+    top: 42%;
+    left: 33%;
+    animation: rotateAnimate 10s infinite linear;
+  }
+  .payment-card-bg::before {
+    content: url(/assets/images/payment-gateway/Rectangle\ 802.png);
+    position: absolute;
+    top: -15px;
+    left: -67px;
+    animation: moveAnimate 2s infinite alternate;
+  }
+  padding-top: 60px;
+  .payment-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #495264;
+    margin-bottom: 70px;
+  }
+  .payment-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  @keyframes rotateAnimate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+}
 
 // swiper
 .swiper-3d .swiper-slide-shadow {
