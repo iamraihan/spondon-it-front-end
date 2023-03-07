@@ -185,6 +185,72 @@ body {
   border-radius: 5px !important;
 }
 
+// showcase
+.showcase {
+  max-width: 1650px;
+  margin-left: auto;
+  border-radius: 73px 0px 0px 73px;
+  height: 100%;
+}
+.tabs {
+  height: calc(80% - 20%);
+  margin-top: 25% !important;
+}
+.showcase-content-wrapper {
+  max-width: 947px;
+  text-align: center;
+  h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+  }
+  p {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+  }
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.tab.active {
+  background-color: #ccc;
+}
+
+.tab:hover {
+  background-color: #aaa;
+}
+
+.tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+// showcase end
+
 // feedback swiper
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
