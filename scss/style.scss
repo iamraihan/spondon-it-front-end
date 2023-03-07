@@ -120,7 +120,52 @@ body {
     }
   }
 }
-
+.feedback {
+  padding-top: 100px;
+}
+.feedback-slider-container {
+  background: #ffffff;
+  box-shadow: 8px 9px 141px rgba(0, 0, 0, 0.1);
+  border-radius: 90px 0px 0px 90px;
+  border-radius: 90px 0px 0px 90px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.feedback-slider {
+  // background: #ffffff;
+  // box-shadow: 8px 9px 141px rgba(0, 0, 0, 0.1);
+  // border-radius: 90px 0px 0px 90px;
+}
+.feedback-slide-wrapper {
+  padding-top: 83px;
+  padding-left: 107px;
+  padding-bottom: 88px;
+}
+.slide-description {
+  font-size: 36px;
+  line-height: 52px;
+  color: #3f4654;
+}
+.avatar-wrapper {
+  background: #fbfbfb;
+  border-radius: 76px;
+  max-width: 347px;
+}
+.avatar-item {
+  padding: 16px;
+  h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #5c6574;
+  }
+  p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
 // swiper
 .swiper-3d .swiper-slide-shadow {
   background: transparent;
@@ -138,6 +183,47 @@ body {
   width: 30px !important;
   height: 10px;
   border-radius: 5px !important;
+}
+
+// feedback swiper
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  content: "PREV";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    #3c65f6;
+  padding: 10px 20px;
+  border-radius: 12px 0px 0px 12px;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  content: "NEXT";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
+    #3c65f6;
+  padding: 10px 20px;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.swiper-button-prev {
+  left: calc(79% - 40px);
+  margin-bottom: 12px;
+}
+.swiper-button-next {
+  right: calc(17% - 40px);
+  margin-bottom: 12px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  top: unset !important;
+  bottom: -9px;
+  position: absolute;
 }
 /* Media Queries */
 @media (max-width: 992px) {
@@ -158,6 +244,9 @@ body {
     to {
       transform: scale(1);
     }
+  }
+  .feedback-slide-wrapper {
+    padding: 16px;
   }
 }
 

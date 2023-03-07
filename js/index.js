@@ -17,3 +17,9 @@ var swiper = new Swiper(".heroSlider", {
     clickable: true,
   },
 });
+var swiper = new Swiper(".feedbackSlider", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
