@@ -186,16 +186,69 @@ body {
 }
 
 // showcase
+// showcaase slider
+/* pagination css  */
+.showcaseSlider .swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+  height: 10px;
+  background: #3c4453 !important;
+  border-radius: 5px;
+}
+
+.showcaseSlider .swiper-pagination-bullet-active {
+  background: red;
+  width: 30px !important;
+  height: 10px;
+  border-radius: 5px !important;
+  z-index: 10 !important;
+}
+
 .showcase {
-  max-width: 1650px;
+  max-width: 1600px;
   margin-left: auto;
   border-radius: 73px 0px 0px 73px;
   height: 100%;
+  padding: 64px 0;
 }
-.tabs {
-  height: calc(80% - 20%);
-  margin-top: 25% !important;
+.tab-btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  background: #2e3a54;
+  border: 0.5px solid #4277ff;
+  border-radius: 21px;
+  outline: none;
+  padding: 5px 10px !important;
+  margin-right: 20px;
 }
+.dummy-tab-btn {
+  background: rgba(66, 119, 255, 0.1);
+  border-radius: 10px;
+  padding: 23px 0;
+  text-align: center;
+  margin-top: 22px;
+  cursor: pointer;
+}
+.tab-wrapper {
+  margin-left: -5%;
+  padding: 40px;
+  background: #2c3341;
+  box-shadow: 10px 23px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 37px;
+  margin-left: -7%;
+  height: 80%;
+  margin-top: 2%;
+  h4 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 34px;
+  }
+}
+// .tabs {
+//   height: calc(80% - 20%);
+//   margin-top: 25% !important;
+// }
 .showcase-content-wrapper {
   max-width: 947px;
   text-align: center;
@@ -237,11 +290,9 @@ body {
 }
 
 .tab.active {
-  background-color: #ccc;
-}
-
-.tab:hover {
-  background-color: #aaa;
+  background-color: $primary;
+  color: #ffffff !important;
+  border: 0.5px solid $primary;
 }
 
 .tab-content {

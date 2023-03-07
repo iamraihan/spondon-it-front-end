@@ -23,6 +23,18 @@ var swiper = new Swiper(".feedbackSlider", {
     prevEl: ".swiper-button-prev",
   },
 });
+var swiper = new Swiper(".showcaseSlider", {
+  // effect: "cards",
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
 
 // showcase
 const tabs = document.querySelectorAll("[data-tab-target]");
