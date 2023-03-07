@@ -1,6 +1,6 @@
 # Spondon It Aorasoft
 
-## [Live Site](https://curious-frangipane-f4380a.netlify.app/).
+## [https://dainty-piroshki-18e8d4.netlify.app/](https://dainty-piroshki-18e8d4.netlify.app/).
 
 ## if you have not installed sass so run this command
 
@@ -16,4 +16,9 @@ sass --watch scss/style.scss css/style.css
 
 ## Uses Technology
 
-- HTML, CSS, SCSS, Bootstrap, JavaScript
+- HTML,
+- CSS,
+- SCSS,
+- Bootstrap,
+- Swiper JS,
+- JavaScript
