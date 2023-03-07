@@ -8,6 +8,11 @@ $light: #f3f7f9;
 // import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;

@@ -10769,6 +10769,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
