@@ -35,7 +35,6 @@ body {
   background-image: url("../assets/images/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 
 .hero-bg::before {
@@ -85,6 +84,24 @@ body {
   }
 }
 
+// swiper
+.swiper-3d .swiper-slide-shadow {
+  background: transparent;
+}
+/* pagination css  */
+.heroSlider .swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  border-radius: none !important;
+}
+
+.heroSlider .swiper-pagination-bullet-active {
+  background: #4277ff;
+  width: 30px !important;
+  height: 10px;
+  border-radius: 5px !important;
+}
 /* Media Queries */
 @media (max-width: 992px) {
   .hero {

@@ -8,3 +8,12 @@ window.addEventListener("resize", () => {
     heroSection.classList.remove("container");
   }
 });
+
+var swiper = new Swiper(".heroSlider", {
+  effect: "cards",
+  grabCursor: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
