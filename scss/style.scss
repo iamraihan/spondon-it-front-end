@@ -204,6 +204,7 @@ body {
 }
 
 .showcase {
+  flex-direction: row;
   max-width: 1600px;
   margin-left: auto;
   border-radius: 73px 0px 0px 73px;
@@ -364,6 +365,9 @@ body {
   }
   .feedback-slide-wrapper {
     padding: 16px;
+  }
+  .showcase {
+    flex-direction: column;
   }
 }
 

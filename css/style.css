@@ -10969,6 +10969,7 @@ body img {
 }
 
 .showcase {
+  flex-direction: row;
   max-width: 1600px;
   margin-left: auto;
   border-radius: 73px 0px 0px 73px;
@@ -11127,6 +11128,9 @@ body img {
   }
   .feedback-slide-wrapper {
     padding: 16px;
+  }
+  .showcase {
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 992px) {
